@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.buttonMargin {
+  margin-left: 1%;
+}
+.styleh1{
+  padding-top: 10%;
+}
+
+.chart{
+  text-decoration-color:  white;
+}
+
+.btnEmployee{
+  margin-left: 2%;
+  margin-top: 1%;
+  width: 20%;
+  z-index: 5;
+}
+.logoX3{
+  padding-bottom: 1%;
+}
+.listEmployee{
+  margin-left: 0.5%;
+  animation: list 1s;
+}
+
+.marginBottom{
+  margin-bottom: 3%;
+}
+
+.chartButtons{
+   animation: list 1s; 
+}
+
+body {
+    overflow-x:hidden;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+  @keyframes list {
+  from {
+    transform: translate(-250px);
+  }
+  to {
+   transform: translate(0px);
+  }
+}

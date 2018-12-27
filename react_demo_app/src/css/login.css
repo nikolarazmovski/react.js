@@ -1,0 +1,101 @@
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 2px 2px;
+  margin: 8px 0;
+}
+
+.displayInline {
+	display: inline-flex;
+	padding-right: 7%;
+	padding-top: 3%;
+}
+.btn-size{
+	width: 20%;
+}
+.displayBlock{
+	display: inline-block;
+}
+.signin {
+margin-left: 12.5%;
+margin-top: 3%;
+  z-index: 10;
+  text-align: center;
+  min-height: 100vh;
+  display: block;
+  position: fixed;
+  width: 44%;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.button-login{
+	padding-top: 20%;
+}
+h1{
+	 padding: 2.5%;
+	 font-family: "Times New Roman", Times, serif;
+	 color: lightblue;
+}
+
+.signInPadding{
+	padding-top: 3%;
+}
+
+.imgSize {
+	width: 20%;
+}
+
+.animateLogin {
+  margin-left: 17%;
+  animation: login-animation 1.3s;
+  position: relative;
+}
+
+.animateSignIn {
+  
+  animation: signIn-animation 1.3s;
+     position: relative;
+}
+
+.welcome{
+	 font-family: "Times New Roman", Times, serif;
+	 color: lightblue;
+	 font-size: 50px;
+}
+
+
+@keyframes login-animation {
+  0% {
+    transform: translate(-500px);
+  }
+  20%{
+    transform: translate(0px);
+  }
+  40%{
+    transform: translate(-150px);
+  }
+  50%{
+    transform: translate(0px);
+  }
+}
+
+
+
+
+@keyframes signIn-animation {
+  0% {
+    transform: translate(+500px);
+  }
+  20%{
+    transform: translate(0px);
+  }
+  40%{
+    transform: translate(+150px);
+  }
+  50%{
+    transform: translate(0px);
+  }
+}
+
+
+
